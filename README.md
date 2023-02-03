@@ -3,13 +3,13 @@
 
 ## Como lo hice 
 
-- Planificación: Trate de Definir claramente los requisitos y objetivos de la aplicacion de transporte , y elige la arquitectura y tecnologías adecuadas para cumplirlos segun sus enseñanzas
+- Planificación: Trate de Definir claramente los requisitos y objetivos de la aplicacion de transporte y elegir la arquitectura y tecnologías adecuadas para cumplirlos segun sus enseñanzas
 
-- Configuración inicial y estructura de carpetas: Crea un nuevo proyecto en Spring Boot utilizando herramientas como Spring Initializer y configura las dependencias necesarias para el proyecto junto con los principios KISS Dividi el proyecto en módulos lógicos y organiza los paquetes y clases de acuerdo a una buena práctica de diseño con el modelo MVC
+- Configuración inicial y estructura de carpetas: Cree un nuevo proyecto en Spring Boot utilizando herramientas como Spring Initializer y configure las dependencias necesarias para el proyecto junto con los principios KISS, dividi el proyecto en módulos lógicos y organize los paquetes y clases de acuerdo a una buena práctica de diseño con el modelo MVC
 
 - Mi logica: Despues de analizar el problema llegue a la conclucion que para poder hacer la app tenia que crear una clase para los pasajeros, otra para los destinos y otra para los buces en donde todas heredaban de una clase abstracta por otro lado fue necesario crear 2 carpetas en servicios en donde cada una tenia su interface y su clase que la implementaban para asi ser inyectadas en el controlador de la manera mas desacoplada posible loca cual se presta para mantener la logica lo mas desacoplada posible de una clase en espesifico
 
-- Documentación: Documenta el código y el proyecto de manera clara y detallada en el readmed con los end point
+- Documentación: Documente el código y el proyecto de manera clara y detallada en el readmed con los end point
 
 ## End Point de la api Rest
 
@@ -42,5 +42,5 @@
 ## Patrones de diseño identificados
 
 - Patrón Singleton: permite crear una única instancia de un objeto y proporcionar un punto de acceso global a ella.
-- Patrón Factory: permite crear objetos sin especificar la clase concreta que se está creando.
+- Patrón Decorator: te permite añadir funcionalidades a objetos colocando estos objetos dentro de objetos encapsuladores especiales que contienen estas funcionalidades
 - Patrón Builder: permite construir objetos complejos de manera eficiente y clara.
