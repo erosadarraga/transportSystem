@@ -6,7 +6,26 @@
 
 - Odtiene todos los destinos en un arreglo: http://localhost:8080/api/destinos
 - Inserta un nuevo destino en el arreglo de destinos: http://localhost:8080/api/destinos
-- Borra un destino del arreglo de destinos : http://localhost:8080/api/destinos/2
+```  
+  {
+        "cityName": "bogota",
+        "bus": {
+            "passenger": {
+                "namePerson": "santiago",
+                "age": 29
+                
+            },
+            "name": "Berlinas del Fonce",
+            "destination": "cucuta"
+        },
+        "horarios": [
+            "13:30 AM",
+            "6:00 pm",
+            "3:20 AM"
+        ]
+    }
+```
+- Borra un destino del arreglo de destinos con su id: http://localhost:8080/api/destinos/{id}
 
 
 
