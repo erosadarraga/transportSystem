@@ -26,6 +26,7 @@ public class controllerDestination {
     public ResponseEntity<Destination> getAllDestination(@RequestBody Destination destination){
         Destination  result = serviceDestination.PostDestination(destination);
         return ResponseEntity.ok(result);
+
     };
 
     @DeleteMapping("/{id}")
